@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import { Link } from "./main/components/Link";
 
 function App() {
   return (
@@ -8,15 +9,8 @@ function App() {
         <a class="logo" href="index.html">
           Minseo's Page
         </a>
-
         {/* <img class="profileimage" src="image/profile.png" alt="profile"> */}
-
-        <div class="links">
-          <a href="https://www.codewars.com/users/Minseo%20Kim"></a>
-          <a href="https://www.freecodecamp.org/gemmak"></a>
-          <a href="https://github.com/gemma-Kim"></a>
-        </div>
-
+        <Link />
         <div class="profile">
           <p class="name">Minseo Kim</p>
           <p>Based in London</p>
